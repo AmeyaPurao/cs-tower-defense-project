@@ -82,4 +82,8 @@ public class TurretUIManager : MonoBehaviour
         else
             upgradeButton.GetComponent<CanvasGroup>().alpha = 1f;
     }
+
+    public void exitApp() {
+        Application.Quit();
+    }
 }
